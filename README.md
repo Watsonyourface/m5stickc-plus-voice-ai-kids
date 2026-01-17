@@ -137,7 +137,7 @@ Open `M5Voice_v2.7.ino` and edit the configuration section:
 // CONFIGURATION - PASTE YOUR CREDENTIALS HERE
 // ============================================================================
 
-const char* OPENAI_API_KEY = "sk-proj-your-key-here";
+const char* OPENAI_API_KEY = "YOUR_OPENAI_KEY_HERE";
 
 // Optional: leave blank to use WiFi setup portal
 const char* WIFI_SSID = "YourWiFiName";
