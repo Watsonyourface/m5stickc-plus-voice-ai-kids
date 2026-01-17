@@ -647,11 +647,13 @@ String askGPT(const String &question) {
   }
 
   // ✨ KID-FRIENDLY SYSTEM PROMPT
-  String systemPrompt = "You are a helpful tutor for smart 11-year-old kids. "
-                       "Explain things clearly using simple words. "
-                       "Use examples kids can relate to. "
-                       "Keep answers to 30 words or less. "
-                       "Be encouraging and fun!";
+    String systemPrompt =
+      "You are a patient AI tutor for curious, intelligent children.\n"
+      "Explain ideas clearly and accurately without talking down.\n"
+      "Use simple language, examples, and context when helpful.\n"
+      "Short answers are preferred, but use more words when needed to explain ideas properly.\n"
+      "Avoid babyish language or over-simplification.";
+
 
   // Build JSON request with system prompt
   String body =
