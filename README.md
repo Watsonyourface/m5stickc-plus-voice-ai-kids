@@ -15,7 +15,7 @@ Designed for real children, real questions, and long-running stability on ESP32 
   Remembers the *last question only*, allowing natural follow-ups like “tell me more” or “give an example”, without crashing the device.
 
 - **Kid-Friendly AI Responses**  
-  Tuned for curious 8–11 year olds. Clear explanations, relatable examples, and a strict **30-word maximum**.
+  Kid-Friendly AI Responses – Clear, respectful explanations for curious kids. Short answers by default, with longer explanations when ideas need context.
 
 - **Friendly Face Animation**  
   Simple visual feedback shows when the device is listening or thinking using a calm, inclusive character.
